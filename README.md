@@ -42,7 +42,8 @@ I will, however, share the data dictionary for the relevant variables to my mode
 |west|int|df|Contestant lives in the West (Yes = 1, No =0)|
 
 I input the following variables to determine my own results: 
-```me = {'baking_experience' : 0, 
+```
+me = {'baking_experience' : 0, 
       'decorating_experience' : 1, 
       'goofy' : 1, 
       'here_to_impress_someone' : 1,
