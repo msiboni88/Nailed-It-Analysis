@@ -6,6 +6,7 @@ This is the code I used behind my blog post, [Would I embarrass myself if I went
 The goal of this post was to create a classification model that could predict whether or not an individual (primarily myself) would embarrass themselves on the show. I manually compiled data from every episode of *Nailed It!*; however, because I was making quick guesses and judgements about strangers, I have decided NOT to share the data behind this model. 
 
 I will, however, share the data dictionary for the relevant variables to my model : 
+#### Data Dictionary
 |Feature|Type|Dataset|Description|
 |---|---|---|---|
 |embarrassed|int|df|My opinion on whether or not the contestant embarrassed himself or herself, 0 = did not embarrass, 1 = embarrassed a little or embarrassed a lot|
@@ -70,7 +71,8 @@ I input the following variables to determine my own results:
       'northeast' : 0,
       'southeast' : 0, 
       'southwest' : 0, 
-      'west': 1}```
+      'west': 1}
+```
 ## Next Steps
 - With more time, I would have loved to dig in to the ROC curve of my logistic regression model to look for ways to optimize for accuracy and sensitivty (as I would not want to get a false negative and be lulled into a sense of security by that.
 - I would like to build a web app that can tell someone else whether or not they would embarrass themselves. 
