@@ -1,5 +1,4 @@
-# Blog3
-## Nailed It! Contestant Analysis
+# Nailed It! Contestant Analysis
 
 This is the code I used behind my blog post, [Would I embarrass myself if I went on Netflix’s *Nailed It?*](https://medium.com/swlh/would-i-embarrass-myself-if-i-went-on-netflixs-nailed-it-9e3ae8ff6b5a)
 
@@ -74,7 +73,3 @@ me = {'baking_experience' : 0,
       'southwest' : 0, 
       'west': 1}
 ```
-## Next Steps
-- With more time, I would have loved to dig in to the ROC curve of my logistic regression model to look for ways to optimize for accuracy and sensitivty (as I would not want to get a false negative and be lulled into a sense of security by that.
-- I would like to build a web app that can tell someone else whether or not they would embarrass themselves. 
-- I would create models for whether or not a person is likely to win an episode. 
